@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     HW3_TEST
+Instances:    153
+Attributes:   4
+              age
+              year_op
+              positive_nodes
+              CLASS_LABEL
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+positive_nodes <= 1
+|   positive_nodes <= 0
+|   |   year_op <= 59: 2 (5.0/1.0)
+|   |   year_op > 59: 1 (14.0/4.0)
+|   positive_nodes > 0
+|   |   positive_nodes <= 0.818182: 1 (90.0)
+|   |   positive_nodes > 0.818182
+|   |   |   age <= 47: 2 (2.0)
+|   |   |   age > 47
+|   |   |   |   age <= 60: 1 (6.0)
+|   |   |   |   age > 60: 2 (2.0)
+positive_nodes > 1
+|   positive_nodes <= 3
+|   |   positive_nodes <= 2
+|   |   |   year_op <= 62: 2 (6.0/1.0)
+|   |   |   year_op > 62: 1 (2.0)
+|   |   positive_nodes > 2
+|   |   |   age <= 52: 2 (2.0)
+|   |   |   age > 52: 1 (2.0)
+|   positive_nodes > 3: 2 (22.0)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	21
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances          90               58.8235 %
+Incorrectly Classified Instances        63               41.1765 %
+Kappa statistic                          0.1687
+Mean absolute error                      0.4651
+Root mean squared error                  0.6116
+Relative absolute error                119.0304 %
+Root relative squared error            139.1533 %
+Total Number of Instances              153     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.566     0.35       0.821     0.566     0.67       0.637    1
+                 0.65      0.434      0.347     0.65      0.452      0.637    2
+Weighted Avg.    0.588     0.372      0.697     0.588     0.613      0.637
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 64 49 |  a = 1
+ 14 26 |  b = 2

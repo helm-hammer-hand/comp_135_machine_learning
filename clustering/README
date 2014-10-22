@@ -1,0 +1,7 @@
+to run random:
+
+python kmeans_random.py winequality.arff > output_centroids_random
+
+to run custom:
+
+python kmeans_custom.py winequality.arff > output_centroids_custom

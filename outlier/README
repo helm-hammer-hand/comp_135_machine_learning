@@ -1,0 +1,27 @@
+the bash script provided creates the synthetic dataset then runs tests for k=5 
+on all three datasets.  to run bash script:
+
+bash run_outlier
+
+
+to run synthetic dataset program:
+
+python synthetic.py -n 5 -f 10 -min 50 -max 100 -o .02 synthetic.arff
+
+-n is the number of clusters
+-f is the number of features
+-min is the minimum cluster size
+-max is maximum cluster size
+-o is percentage of outliers
+
+
+
+to run outlier detection:
+
+python outlier.py -k 5 -p .02 dataset1.arff k5_dataset1
+
+-k is number of nearest neighbors to consider
+-p is expected percentage of outliers
+
+
+

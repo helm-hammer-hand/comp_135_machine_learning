@@ -1,0 +1,7 @@
+Benjamin Helm, January 22, 2014
+Comp135
+Assignment 1
+
+Execution instructions:
+
+./kNN.py train.arff test.arff output.arff

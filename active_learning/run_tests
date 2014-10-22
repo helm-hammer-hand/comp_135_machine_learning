@@ -1,0 +1,20 @@
+python knn.py -k 3 ecoli.arff ecoli_r_3 ecoli_u_3
+
+python knn.py -k 5 ecoli.arff ecoli_r_5 ecoli_u_5
+
+python knn.py -k 7 ecoli.arff ecoli_r_7 ecoli_u_7
+
+python knn.py -k 9 ecoli.arff ecoli_r_9 ecoli_u_9
+
+python knn.py -k 11 ecoli.arff ecoli_r_11 ecoli_u_11
+
+
+python knn.py -k 3 ionosphere.arff ionosphere_r_3 ionosphere_u_3
+
+python knn.py -k 5 ionosphere.arff ionosphere_r_5 ionosphere_u_5
+
+python knn.py -k 7 ionosphere.arff ionosphere_r_7 ionosphere_u_7
+
+python knn.py -k 9 ionosphere.arff ionosphere_r_9 ionosphere_u_9
+
+python knn.py -k 11 ionosphere.arff ionosphere_r_11 ionosphere_u_11

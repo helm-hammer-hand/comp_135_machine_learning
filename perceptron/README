@@ -1,0 +1,11 @@
+Bejamin Helm
+Comp135 A4
+
+Running instructions:
+
+sh run_tests
+
+Collaboration Note:
+
+I used the python solution knn.py posted on the course website modified to fit 
+the needs of this assignment. 

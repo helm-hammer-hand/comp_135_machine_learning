@@ -1,0 +1,193 @@
+Filter Method:
+
+Part A: Features listed in descending order according to the |r| value
+Feature 0 has an |r| of 0.396138020389
+Feature 26 has an |r| of 0.389950708121
+Feature 21 has an |r| of 0.372253903822
+Feature 38 has an |r| of 0.366793218957
+Feature 12 has an |r| of 0.343778867991
+Feature 14 has an |r| of 0.343376690302
+Feature 6 has an |r| of 0.337267836436
+Feature 32 has an |r| of 0.318546590563
+Feature 2 has an |r| of 0.299107094632
+Feature 35 has an |r| of 0.289618974553
+Feature 13 has an |r| of 0.275320657953
+Feature 33 has an |r| of 0.268874986621
+Feature 37 has an |r| of 0.261750540123
+Feature 24 has an |r| of 0.252103160873
+Feature 10 has an |r| of 0.242325352437
+Feature 4 has an |r| of 0.234618064593
+Feature 40 has an |r| of 0.21447610975
+Feature 7 has an |r| of 0.201603321011
+Feature 9 has an |r| of 0.177183327834
+Feature 30 has an |r| of 0.17357159556
+Feature 5 has an |r| of 0.170449688235
+Feature 19 has an |r| of 0.153639506199
+Feature 39 has an |r| of 0.149510350582
+Feature 17 has an |r| of 0.131555360713
+Feature 22 has an |r| of 0.116612920834
+Feature 36 has an |r| of 0.114895694705
+Feature 23 has an |r| of 0.114554018542
+Feature 11 has an |r| of 0.112425176702
+Feature 31 has an |r| of 0.10659011742
+Feature 3 has an |r| of 0.103290257747
+Feature 20 has an |r| of 0.0962388141487
+Feature 28 has an |r| of 0.0928932591127
+Feature 25 has an |r| of 0.0918203926751
+Feature 16 has an |r| of 0.0915197638044
+Feature 18 has an |r| of 0.0598311424721
+Feature 8 has an |r| of 0.0561416203577
+Feature 29 has an |r| of 0.0536363068999
+Feature 34 has an |r| of 0.0273870028357
+Feature 27 has an |r| of 0.025021552153
+Feature 15 has an |r| of 0.00287890534998
+Feature 1 has an |r| of 0.00190006215349
+
+Part B: Values of m and Avg LOOCV accuracy
+M: 1, LOOCV Accuracy: 737/1055, 69.9% Correctly Classified
+M: 2, LOOCV Accuracy: 796/1055, 75.5% Correctly Classified
+M: 3, LOOCV Accuracy: 802/1055, 76.0% Correctly Classified
+M: 4, LOOCV Accuracy: 827/1055, 78.4% Correctly Classified
+M: 5, LOOCV Accuracy: 840/1055, 79.6% Correctly Classified
+M: 6, LOOCV Accuracy: 840/1055, 79.6% Correctly Classified
+M: 7, LOOCV Accuracy: 844/1055, 80.0% Correctly Classified
+M: 8, LOOCV Accuracy: 840/1055, 79.6% Correctly Classified
+M: 9, LOOCV Accuracy: 839/1055, 79.5% Correctly Classified
+M: 10, LOOCV Accuracy: 843/1055, 79.9% Correctly Classified
+M: 11, LOOCV Accuracy: 867/1055, 82.2% Correctly Classified
+M: 12, LOOCV Accuracy: 883/1055, 83.7% Correctly Classified
+M: 13, LOOCV Accuracy: 887/1055, 84.1% Correctly Classified
+M: 14, LOOCV Accuracy: 886/1055, 84.0% Correctly Classified
+M: 15, LOOCV Accuracy: 886/1055, 84.0% Correctly Classified
+M: 16, LOOCV Accuracy: 885/1055, 83.9% Correctly Classified
+M: 17, LOOCV Accuracy: 878/1055, 83.2% Correctly Classified
+M: 18, LOOCV Accuracy: 842/1055, 79.8% Correctly Classified
+M: 19, LOOCV Accuracy: 854/1055, 80.9% Correctly Classified
+M: 20, LOOCV Accuracy: 841/1055, 79.7% Correctly Classified
+M: 21, LOOCV Accuracy: 843/1055, 79.9% Correctly Classified
+M: 22, LOOCV Accuracy: 846/1055, 80.2% Correctly Classified
+M: 23, LOOCV Accuracy: 848/1055, 80.4% Correctly Classified
+M: 24, LOOCV Accuracy: 848/1055, 80.4% Correctly Classified
+M: 25, LOOCV Accuracy: 855/1055, 81.0% Correctly Classified
+M: 26, LOOCV Accuracy: 859/1055, 81.4% Correctly Classified
+M: 27, LOOCV Accuracy: 859/1055, 81.4% Correctly Classified
+M: 28, LOOCV Accuracy: 863/1055, 81.8% Correctly Classified
+M: 29, LOOCV Accuracy: 865/1055, 82.0% Correctly Classified
+M: 30, LOOCV Accuracy: 866/1055, 82.1% Correctly Classified
+M: 31, LOOCV Accuracy: 866/1055, 82.1% Correctly Classified
+M: 32, LOOCV Accuracy: 866/1055, 82.1% Correctly Classified
+M: 33, LOOCV Accuracy: 866/1055, 82.1% Correctly Classified
+M: 34, LOOCV Accuracy: 866/1055, 82.1% Correctly Classified
+M: 35, LOOCV Accuracy: 866/1055, 82.1% Correctly Classified
+M: 36, LOOCV Accuracy: 877/1055, 83.1% Correctly Classified
+M: 37, LOOCV Accuracy: 865/1055, 82.0% Correctly Classified
+M: 38, LOOCV Accuracy: 872/1055, 82.7% Correctly Classified
+M: 39, LOOCV Accuracy: 872/1055, 82.7% Correctly Classified
+M: 40, LOOCV Accuracy: 868/1055, 82.3% Correctly Classified
+M: 41, LOOCV Accuracy: 870/1055, 82.5% Correctly Classified
+
+
+Wrapper Method:
+
+Iteration number, selected features and avg LOOCV accuracy
+Iteration 0, Selected Features: { } LOOCV Accuracy: 0/1055, 0.0% Correct
+Iteration 1, Selected Features: { 35 } LOOCV Accuracy: 820/1055, 77.7% Correct
+Iteration 2, Selected Features: { 35 0 } LOOCV Accuracy: 856/1055, 81.1% Correct
+Iteration 3, Selected Features: { 35 0 33 } LOOCV Accuracy: 871/1055, 82.6% Correct
+Iteration 4, Selected Features: { 35 0 33 21 } LOOCV Accuracy: 891/1055, 84.5% Correct
+Iteration 5, Selected Features: { 35 0 33 21 40 } LOOCV Accuracy: 898/1055, 85.1% Correct
+Iteration 6, Selected Features: { 35 0 33 21 40 39 } LOOCV Accuracy: 904/1055, 85.7% Correct
+Iteration 7, Selected Features: { 35 0 33 21 40 39 31 } LOOCV Accuracy: 908/1055, 86.1% Correct
+Iteration 8, Selected Features: { 35 0 33 21 40 39 31 5 } LOOCV Accuracy: 911/1055, 86.4% Correct
+Iteration 9, Selected Features: { 35 0 33 21 40 39 31 5 16 } LOOCV Accuracy: 914/1055, 86.6% Correct
+Iteration 10, Selected Features: { 35 0 33 21 40 39 31 5 16 10 } LOOCV Accuracy: 916/1055, 86.8% Correct
+Iteration 11, Selected Features: { 35 0 33 21 40 39 31 5 16 10 37 } LOOCV Accuracy: 921/1055, 87.3% Correct
+Iteration 12, Selected Features: { 35 0 33 21 40 39 31 5 16 10 37 2 } LOOCV Accuracy: 923/1055, 87.5% Correct
+
+
+Custom Method:
+
+Feature 17 has a weight of 4.36438146541
+Feature 21 has a weight of 3.85892462906
+Feature 16 has a weight of 1.96840750274
+Feature 26 has a weight of 1.72444429413
+Feature 0 has a weight of 0.724312449342
+Feature 24 has a weight of 0.709876306692
+Feature 12 has a weight of 0.588511210642
+Feature 18 has a weight of 0.587722349663
+Feature 23 has a weight of 0.585635636597
+Feature 28 has a weight of 0.577652288094
+Feature 19 has a weight of 0.483941790138
+Feature 39 has a weight of 0.468728352404
+Feature 25 has a weight of 0.460152188182
+Feature 20 has a weight of 0.441467722779
+Feature 3 has a weight of 0.403461142892
+Feature 14 has a weight of 0.369748007987
+Feature 13 has a weight of 0.350206611184
+Feature 38 has a weight of 0.295327897332
+Feature 35 has a weight of 0.28973422121
+Feature 37 has a weight of 0.240052503488
+Feature 32 has a weight of 0.209505691147
+Feature 2 has a weight of 0.204524361125
+Feature 36 has a weight of 0.17875228207
+Feature 31 has a weight of 0.165497890187
+Feature 5 has a weight of 0.158739316608
+Feature 27 has a weight of 0.157439116314
+Feature 6 has a weight of 0.151593173751
+Feature 11 has a weight of 0.146070772198
+Feature 33 has a weight of 0.118239103028
+Feature 4 has a weight of 0.100566920299
+Feature 9 has a weight of 0.0997971621753
+Feature 40 has a weight of 0.0957787786706
+Feature 30 has a weight of 0.0827868903895
+Feature 10 has a weight of 0.0777536821033
+Feature 8 has a weight of 0.0285923181396
+Feature 22 has a weight of 0.0243524878498
+Feature 7 has a weight of 0.0220464840482
+Feature 34 has a weight of 0.0217873628822
+Feature 29 has a weight of 0.00450881022885
+Feature 1 has a weight of 0.00228562911349
+Feature 15 has a weight of 0.00064589381057
+
+Values of m and Avg LOOCV accuracy
+M: 1, LOOCV Accuracy: 632/1055, 59.9% Correctly Classified
+M: 2, LOOCV Accuracy: 807/1055, 76.5% Correctly Classified
+M: 3, LOOCV Accuracy: 781/1055, 74.0% Correctly Classified
+M: 4, LOOCV Accuracy: 836/1055, 79.2% Correctly Classified
+M: 5, LOOCV Accuracy: 827/1055, 78.4% Correctly Classified
+M: 6, LOOCV Accuracy: 829/1055, 78.6% Correctly Classified
+M: 7, LOOCV Accuracy: 788/1055, 74.7% Correctly Classified
+M: 8, LOOCV Accuracy: 791/1055, 75.0% Correctly Classified
+M: 9, LOOCV Accuracy: 792/1055, 75.1% Correctly Classified
+M: 10, LOOCV Accuracy: 792/1055, 75.1% Correctly Classified
+M: 11, LOOCV Accuracy: 804/1055, 76.2% Correctly Classified
+M: 12, LOOCV Accuracy: 825/1055, 78.2% Correctly Classified
+M: 13, LOOCV Accuracy: 827/1055, 78.4% Correctly Classified
+M: 14, LOOCV Accuracy: 827/1055, 78.4% Correctly Classified
+M: 15, LOOCV Accuracy: 829/1055, 78.6% Correctly Classified
+M: 16, LOOCV Accuracy: 821/1055, 77.8% Correctly Classified
+M: 17, LOOCV Accuracy: 824/1055, 78.1% Correctly Classified
+M: 18, LOOCV Accuracy: 856/1055, 81.1% Correctly Classified
+M: 19, LOOCV Accuracy: 866/1055, 82.1% Correctly Classified
+M: 20, LOOCV Accuracy: 888/1055, 84.2% Correctly Classified
+M: 21, LOOCV Accuracy: 877/1055, 83.1% Correctly Classified
+M: 22, LOOCV Accuracy: 890/1055, 84.4% Correctly Classified
+M: 23, LOOCV Accuracy: 896/1055, 84.9% Correctly Classified
+M: 24, LOOCV Accuracy: 906/1055, 85.9% Correctly Classified
+M: 25, LOOCV Accuracy: 909/1055, 86.2% Correctly Classified
+M: 26, LOOCV Accuracy: 909/1055, 86.2% Correctly Classified
+M: 27, LOOCV Accuracy: 910/1055, 86.3% Correctly Classified
+M: 28, LOOCV Accuracy: 905/1055, 85.8% Correctly Classified
+M: 29, LOOCV Accuracy: 904/1055, 85.7% Correctly Classified
+M: 30, LOOCV Accuracy: 905/1055, 85.8% Correctly Classified
+M: 31, LOOCV Accuracy: 902/1055, 85.5% Correctly Classified
+M: 32, LOOCV Accuracy: 901/1055, 85.4% Correctly Classified
+M: 33, LOOCV Accuracy: 904/1055, 85.7% Correctly Classified
+M: 34, LOOCV Accuracy: 902/1055, 85.5% Correctly Classified
+M: 35, LOOCV Accuracy: 898/1055, 85.1% Correctly Classified
+M: 36, LOOCV Accuracy: 897/1055, 85.0% Correctly Classified
+M: 37, LOOCV Accuracy: 876/1055, 83.0% Correctly Classified
+M: 38, LOOCV Accuracy: 880/1055, 83.4% Correctly Classified
+M: 39, LOOCV Accuracy: 872/1055, 82.7% Correctly Classified
+M: 40, LOOCV Accuracy: 877/1055, 83.1% Correctly Classified
+M: 41, LOOCV Accuracy: 870/1055, 82.5% Correctly Classified

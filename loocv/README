@@ -1,0 +1,8 @@
+Benjamin Helm
+Feb 27, 2014
+
+To run program:
+
+python a6.py biodegrade.arff > outputfile
+
+

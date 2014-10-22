@@ -1,0 +1,58 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     HW3_TEST
+Instances:    153
+Attributes:   4
+              age
+              year_op
+              positive_nodes
+              CLASS_LABEL
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+positive_nodes <= 5.095238
+|   positive_nodes <= 5
+|   |   positive_nodes <= 3
+|   |   |   year_op <= 59: 2 (12.0/3.0)
+|   |   |   year_op > 59: 1 (29.0/10.0)
+|   |   positive_nodes > 3: 2 (5.0)
+|   positive_nodes > 5: 1 (90.0)
+positive_nodes > 5.095238: 2 (17.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	9
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances          97               63.3987 %
+Incorrectly Classified Instances        56               36.6013 %
+Kappa statistic                          0.184 
+Mean absolute error                      0.4583
+Root mean squared error                  0.549 
+Relative absolute error                117.2966 %
+Root relative squared error            124.909  %
+Total Number of Instances              153     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.664     0.45       0.806     0.664     0.728      0.647    1
+                 0.55      0.336      0.367     0.55      0.44       0.647    2
+Weighted Avg.    0.634     0.42       0.691     0.634     0.653      0.647
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 75 38 |  a = 1
+ 18 22 |  b = 2
+

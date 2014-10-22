@@ -1,0 +1,15 @@
+Benjamin Helm, 2/3/2014
+
+Running Instructions:
+
+python a3.py train-hw3.arff test-hw3.arff
+
+
+Input Information:
+training data: train-hw3.arff
+test data: test-hw3.arff
+
+Output Information:
+pre processed training data with approach 1: train-pre-a1.arff
+pre processed training data with approach 2: train-pre-a2.arff
+pre processed test data with appraoch 1: test-pre-a1.arff

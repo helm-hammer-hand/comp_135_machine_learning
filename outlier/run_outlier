@@ -1,0 +1,7 @@
+python synthetic.py -n 5 -f 10 -min 50 -max 100 -o .02 synthetic.arff
+
+python outlier.py -k 5 -p .02 dataset1.arff k5_dataset1
+
+python outlier.py -k 5 -p .04 dataset2.arff k5_dataset2
+
+python outlier.py -k 5 -p .02 synthetic.arff k5_synthetic
